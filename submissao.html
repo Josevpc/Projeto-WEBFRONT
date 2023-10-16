@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomentalica</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/submissao.css">
+</head>
+
+<body>
+    <header>
+        <h1>FOMENTALICA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="submissao.html">Submissão</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="section">
+                <form>
+                    <h3>Informações sobre o Autor: </h3>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome">
+                    <label for="curso">Curso:</label><br>
+                    <select name="curso" id="curso">
+                        <option value="ads">Tec. Análise e Desenvolvimento de Sistemas</option>
+                        <option value="comp">Eng. Computação</option>
+                        <option value="controle">Eng. de Controle e Automação</option>
+                        <option value="eletronica">Eng. Eletrônica</option>
+                        <option value="eletrica">Eng. Elétrica</option>
+                        <option value="mec">Eng. Mecânica</option>
+                        <option value="software">Eng. de Software</option>
+                    </select>
+                    <label for="contato">Email:</label>
+                    <input type="email" id="contato" name="contato">
+                    <h3>Informações sobre o Trabalho: </h3>
+                    <label for="tema">Tema:</label>
+                    <input type="text" id="tema" name="tema">
+                    <label for="titulo-trabalho">Titulo:</label>
+                    <input type="text" id="titulo-trabalho" name="titulo-trabalho">
+                    <label for="resumo">Resumo:</label><br>
+                    <textarea id="resumo" name="resumo" rows="4" cols="50"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nome da Sua Empresa</p>
+        <p>Endereço: Rua da Empresa, 123 - Cidade</p>
+        <p>Email: contato@empresa.com</p>
+    </footer>
+</body>
+
+</html>

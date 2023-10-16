@@ -1,0 +1,68 @@
+div {
+    margin: 5px 10px;
+    border-style: hidden;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.container:first-child {
+    margin-top: 0;
+}
+
+.section {
+    flex: 1;
+    background-color: #268a37d2;
+    border-style: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px #4c574e;
+}
+
+.section:first-child {
+    flex: 0.15;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border: solid #ffffff 2px;
+    border-radius: 30px;
+}
+
+.autor {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px;
+    text-align: left;
+}
+
+.titulo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    margin-left: 10px;
+    text-align: justify;
+}
