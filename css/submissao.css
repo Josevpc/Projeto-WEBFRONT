@@ -6,6 +6,14 @@ div {
     width: 100%;
 }
 
+p.main {
+    color: black;
+}
+
+ul {
+    color: black;
+}
+
 .container {
     height: 100%;
     margin: 0;
@@ -48,6 +56,10 @@ input {
     width: 150%;
 }
 
+input.search {
+    width: 75%;
+}
+
 select {
     padding: 10px;
     margin: 10px 0;
@@ -71,4 +83,18 @@ textarea {
 
 input[type=submit] {
     width: 50%;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    box-shadow: 4px 4px 10px #847f857e;
+    border-radius: 10px;
+    font-size: inherit;
+    width: auto;
+}
+
+button.clearAll {
+    margin-top: 15px;
 }

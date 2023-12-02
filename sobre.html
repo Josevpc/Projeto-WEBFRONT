@@ -51,21 +51,26 @@
 
         <h2>Próximos objetivos</h2>
         <p class="sobre">
-            A finalidade principal deste projeto é realizar concursos trimestrais, nos quais os três melhores trabalhos, 
-            relacionados aos temas escolhidos, serão premiados. Além disso, a página inicial pode funcionar como uma linha do tempo, 
-            exibindo os trabalhos mais recentes enviados para a plataforma. No futuro, planejamos implementar uma ferramenta de votação 
-            que permitirá à comunidade votar e destacar trabalhos, mesmo que não estejam sendo submetidos para participar de um concurso.
+            A finalidade principal deste projeto é realizar concursos trimestrais, nos quais os três melhores trabalhos,
+            relacionados aos temas escolhidos, serão premiados. Além disso, a página inicial pode funcionar como uma
+            linha do tempo,
+            exibindo os trabalhos mais recentes enviados para a plataforma. No futuro, planejamos implementar uma
+            ferramenta de votação
+            que permitirá à comunidade votar e destacar trabalhos, mesmo que não estejam sendo submetidos para
+            participar de um concurso.
         </p>
         <p class="sobre">
-            Também estamos considerando a implementação de uma barra lateral que permitirá um acesso rápido aos trabalhos submetidos para os concursos 
-            e aos melhores trabalhos. Essa barra lateral funcionará como um filtro conveniente para facilitar a navegação e a pesquisa dos conteúdos desejados.
+            Também estamos considerando a implementação de uma barra lateral que permitirá um acesso rápido aos
+            trabalhos submetidos para os concursos
+            e aos melhores trabalhos. Essa barra lateral funcionará como um filtro conveniente para facilitar a
+            navegação e a pesquisa dos conteúdos desejados.
         </p>
 
         <h2>Equipe</h2>
         <p class="sobre">José Victor Piccin - <a href="https://github.com/Josevpc">Github</a></p>
 
         <h2>Feedback</h2>
-        <form>
+        <form id='sobre'>
             <label for="aparencia">O que você achou da aparência e do design geral do site?</label>
             <input type="text" id="aparencia" name="aparencia">
 
@@ -81,14 +86,25 @@
             <label for="sugestao">Você tem alguma sugestão para melhorar o site?</label>
             <input type="text" id="sugestao" name="sugestao">
 
+            <label for="email">Seu email: </label>
+            <input type="email" name="email" id="email">
+
             <input type="submit" value="Enviar">
+            <button type="reset">Limpar Campos</button>
         </form>
+
+        <h2>Feedbacks Recebidos</h2>
+        <label for="searchInput" class="main">Pesquise os feedbacks feitos por você pesquisando seu email: </label>
+        <input type="text" id="searchInput" name="searchInput" class="search">
+        <ul id="list"></ul>
+        <button id="clearAll">Limpar Todos os Itens</button>
     </main>
     <footer>
         <p>&copy; 2023 Nome da Sua Empresa</p>
         <p>Endereço: Rua da Empresa, 123 - Cidade</p>
         <p>Email: contato@empresa.com</p>
     </footer>
+    <script src="sobreScript.js"></script>
 </body>
 
 </html>

@@ -25,7 +25,7 @@
     <main>
         <div class="container">
             <div class="section">
-                <form>
+                <form id="submission">
                     <h3>Informações sobre o Autor: </h3>
                     <label for="nome">Nome Completo:</label><br>
                     <input type="text" id="nome" name="nome">
@@ -48,8 +48,17 @@
                     <input type="text" id="titulo-trabalho" name="titulo-trabalho">
                     <label for="resumo">Resumo:</label><br>
                     <textarea id="resumo" name="resumo" rows="4" cols="50"></textarea>
+
                     <input type="submit" value="Enviar">
+                    <button type="reset">Limpar Campos</button>
                 </form>
+            </div>
+            <div class="section">
+                <h3>Trabalhos Cadastrados: </h3>
+                <label for="searchInput" class="main">Pesquise seus trabalhos:</p></label>
+                <input type="text" id="searchInput" name="searchInput" class="search">
+                <ul id="list"></ul>
+                <button id="clearAll" class="clearAll">Limpar Todos os Itens</button>
             </div>
         </div>
     </main>
@@ -58,6 +67,8 @@
         <p>Endereço: Rua da Empresa, 123 - Cidade</p>
         <p>Email: contato@empresa.com</p>
     </footer>
+
+    <script src="submissaoScript.js"></script>
 </body>
 
 </html>

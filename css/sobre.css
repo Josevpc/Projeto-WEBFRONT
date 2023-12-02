@@ -12,7 +12,7 @@ h2:first-child {
     margin-top: 10px;
 }
 
-.sobre { 
+.sobre {
     color: #000;
 }
 
@@ -40,6 +40,28 @@ input {
     width: 100%;
 }
 
+input.search {
+    width: 30%;
+}
+
 input[type=submit] {
     width: 20%;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    box-shadow: 4px 4px 10px #847f857e;
+    border-radius: 10px;
+    font-size: inherit;
+    width: auto;
+}
+
+p.main {
+    color: black;
+}
+
+ul {
+    color: black;
 }
